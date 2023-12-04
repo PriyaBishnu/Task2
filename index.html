@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: aqua;
+         /* border: 8px solid blue;  */
+        
+    }
+    /* body{
+        
+    
+        border: 12px solid blue;
+    } */
+    .formm
+    {
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid black;
+    
+    }
+    .form{
+        
+        font: bold;
+    }
+    .display{
+        color: blue;
+        font-weight: bold;
+    }
+    
+    
+    
+    .storm{
+        color: rgb(234, 20, 163);
+        display: grid;
+        place-items:center;
+        margin: 40px 30px;
+        font: bold;
+        
+    }
+    .edu{
+        color: rgb(234, 20, 163);
+        display: grid;
+        place-items:center;
+        margin: 30px;
+        font: bold;
+    }
+    .shine{
+        color: blue;
+        display: grid;
+        place-items:center;
+        margin: 30px;
+        font: bold;
+    }
+    .form1{
+        
+        font: bold;
+    
+        
+    }
+    .form2{
+        
+        font: bold;
+        
+    }
+    .form{
+       
+        font: bold;
+        
+    }
+    .btn{
+       background-color: rgb(234, 20, 163);
+       border: 2px solid black;
+       font-size: 15px;
+       margin-top: 30px;
+       margin-bottom: 30px;
+    
+    }
+    #display{
+        background-color: blue;
+        font: bold;
+    }
+    </style>
+</head>
+<body>
+    <div class="formm">
+    <div class="storm">
+        <h1 >Big Storm</h1>
+      
+    </div>
+    <div class="edu">
+
+        <h2>Educational Website</h2>
+        
+    </div>
+    <div class="shine">
+        <h3>Sign in and Shine More</h3>
+    </div>
+    
+    <div class="form">
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Enter your name here" id="name" ></div>
+        <br><br>
+        <div class="form1">
+        <label for="email">Email: </label>
+        <input type="text" id="Email" placeholder="Enter your email here"></div>
+        <br><br>
+        <div class="form2">
+        <label for="ps">Password: </label>
+        <input type="password" placeholder="Enter your password here" id="ps" ></div>
+        <button class="btn" onclick="signIn()" >Sign in to continue</button>
+        <div id="display"></div> 
+    </div>
+    
+    <script src="bigstorm.js"></script>
+
+</body>
+
+</html>
